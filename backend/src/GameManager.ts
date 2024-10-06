@@ -7,6 +7,7 @@ export class GameManager {
     private games: Game[];
     private pendingUser : WebSocket | null;
     private users: WebSocket[];
+    
 
     constructor() {
         this.games = [];
