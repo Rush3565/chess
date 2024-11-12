@@ -35,9 +35,6 @@ export const Game = () => {
                 case GAME_OVER: 
                     console.log("game over");
                     break;
-
-
-
             }
         }
 

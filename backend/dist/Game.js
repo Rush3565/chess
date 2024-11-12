@@ -27,7 +27,7 @@ class Game {
         if (this.moveCount % 2 === 0 && socket !== this.player1) {
             return;
         }
-        if (this.moveCount === 0 && socket !== this.player1) {
+        if (this.moveCount % 2 === 1 && socket !== this.player2) {
             return;
         }
         try {
