@@ -52,7 +52,7 @@ class Game {
             }));
             return;
         }
-        if (this.board.moves().length % 2 === 0) {
+        if (this.moveCount % 2 === 0) {
             this.player2.send(JSON.stringify({
                 type: messages_1.MOVE,
                 payload: move
